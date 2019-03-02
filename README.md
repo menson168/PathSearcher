@@ -8,7 +8,7 @@
     - Dijkstra Algorithm
       - A path searching algorithm that determines a path based on the cost to reach the goal. The Dijkstra Algorithm included in this repository is a slightly modified version. Please see [this](https://www.aaai.org/ocs/index.php/SOCS/SOCS11/paper/viewFile/4017/4357) paper for more detail. 
     - A* Algorithm
-      - A variant of Dijkstra. The difference between Dijkstra and A* is that A* utilizes heuristic to determine the cost. A better way to describe A* is that it is the combination of Dijkstra (Using Graph Cost) and Greedy Best First Search (Using Heuristic). 
+      - A variant of Dijkstra. The difference between Dijkstra and A* is that A* utilizes heuristic to determine the cost. Essentially, it is the combination of Dijkstra (Using Graph Cost) and Greedy Best First Search (Using Heuristic). 
       - *Heuristic -> This is a "cheat" value that can help the path searcher to determine the "true" cost of the path. Most cases of heuristic is simply the cartesian distance in between nodes.
 
 ## Reference
